@@ -89,6 +89,7 @@ def signup():
     go_btn = Button(sw, text="GO", width=20, command=signup_work).grid(row=8, column=0)
 
 
+# Login
 def login_work(username, password):
     user = username.get()
     passwd = password.get()
