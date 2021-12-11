@@ -97,6 +97,7 @@ def signup():
     go_btn = Button(sw, text="GO", width=20, command=signup_work).grid(row=8, column=0)
 
 
+
 # The save data function
 def save_data(user, key, value):
     # Checking if the data length is too short
@@ -199,7 +200,7 @@ def info(user):
 
 
 
-
+# Login
 def login_work(username, password):
     user = username.get()
     passwd = password.get()
