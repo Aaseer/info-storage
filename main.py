@@ -57,7 +57,7 @@ def signup():
     password.grid(row=4, column=0)
     re_password.grid(row=6, column=0)
     
-
+    # The work to be done during signup
     def signup_work():
         p = password.get()
         rp = re_password.get()
